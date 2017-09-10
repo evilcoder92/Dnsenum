@@ -19,6 +19,8 @@ args = vars(parser.parse_args())
 domain = args['domain']
 name = args['name']
 filex = args['file']
+command00 = 'mkdir targets'
+os.system(command00)
 command = 'mkdir targets/' + name
 os.system(command)
 ips = []
